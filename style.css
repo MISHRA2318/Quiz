@@ -1,6 +1,7 @@
 *,*::after,::before{
     box-sizing: border-box;
     font-family: "roboto",cursive;
+    font-weight: bold;
 
 }
 
@@ -49,7 +50,7 @@ padding: 10px;
     padding: 20px 80px;
     margin: 10px;
     border-radius: 10px;
-    color: white;
+    color: black;
     background-color: #4AE2D7;
     
 }
@@ -84,6 +85,10 @@ padding: 10px;
 .hide{
     display: none;
 }
-/* .btn1{
-    
-} */
+
+
+#watermark {
+     position: fixed;
+      bottom: 0; 
+      right: 0; 
+    }
